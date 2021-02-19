@@ -16,7 +16,7 @@ $AvrOutPut = DownloadTest "https://www.w3.org/People/mimasa/test/imgformat/img/w
 $AvrOutPut | Out-File $logFile -Force -Append 
 "###End Log Entry: $([Datetime]::UtcNow.ToString()) ####" | Out-File $logFile -Force -Append 
 
-2. TCPPing - Test tcp latancy 
+2. TCPPing - Test tcp latency 
 
 usage.
 
