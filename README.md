@@ -7,6 +7,7 @@ Usage.
 DownloadTest "https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.png" 5
 
 e.g
+
 $logFile = "C:\temp\$([Datetime]::UtcNow.ToString("MM-dd-yy"))-result.log"
 "###Begin Log Entry: $([Datetime]::UtcNow.ToString()) ####" | Out-File $logFile -Force -Append 
 
