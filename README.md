@@ -20,4 +20,4 @@ $AvrOutPut | Out-File $logFile -Force -Append
 
 usage.
 
-TCPPing https://www.w3.org -Iterations 100
+TCPPing www.w3.org -Iterations 100
